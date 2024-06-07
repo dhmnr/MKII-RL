@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mkii-rl"
+version = "0.1.0"
+description = ""
+authors = ["Dheemanth Manur <dmanu006@ucr.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
