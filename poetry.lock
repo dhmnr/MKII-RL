@@ -2215,6 +2215,31 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "swig"
+version = "4.2.1"
+description = "SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages."
+optional = false
+python-versions = "*"
+files = [
+    {file = "swig-4.2.1-py2.py3-none-macosx_10_9_universal2.whl", hash = "sha256:3b7389a1c86d39637b7364f11a1dd8cfb52b1ebba40a2356d2ded74498f4cff7"},
+    {file = "swig-4.2.1-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:5c8826b415d6feaca2bbf1f4bd0ff900d6dbb9ddd3b1850f95129b8aac1eb44b"},
+    {file = "swig-4.2.1-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:6f30b409d20b1e96f5432bf94e0106cf68596884b6da70323d5a21b8f43e3f3b"},
+    {file = "swig-4.2.1-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5c4d8e3c928d5efba698b4610a9292b51a0597958ced79506f76f102ac621184"},
+    {file = "swig-4.2.1-py2.py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:4f8931d0f33a91a611f084a26ecf1364845b5ff8b417db2b99cc8b8a4d8215e3"},
+    {file = "swig-4.2.1-py2.py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9f3482aadf1d6ce3122a84fcd854c32dd5031dd65dba5d5dd9f73deb7333c505"},
+    {file = "swig-4.2.1-py2.py3-none-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:7ce1fd4518ca0a63b809177ed8e0ec11ab485f8ebb66752605c978b964e75b5b"},
+    {file = "swig-4.2.1-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:c7b2db2ccff556dbfc88ef98773b3524b18bc4077ea1d7a5d7339c3a1f3f70dc"},
+    {file = "swig-4.2.1-py2.py3-none-musllinux_1_1_aarch64.whl", hash = "sha256:0cd1812ef95a806eec82ee74b601aa0afd616beffb4227afe090bdc12f690286"},
+    {file = "swig-4.2.1-py2.py3-none-musllinux_1_1_i686.whl", hash = "sha256:bfe68d1c8294632bc6e9a1be7abfb3daafce0794d8dfa94fbccd6326073124b8"},
+    {file = "swig-4.2.1-py2.py3-none-musllinux_1_1_ppc64le.whl", hash = "sha256:23d2f90145b32e74f7386b5a99168ecd3000fad232530866c2b390325a39da19"},
+    {file = "swig-4.2.1-py2.py3-none-musllinux_1_1_s390x.whl", hash = "sha256:3b19337ab24aa5483bea5a36282e454c18ed03af1ada0efd92d02c1bea96dbd1"},
+    {file = "swig-4.2.1-py2.py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:30bfb7d8f4bc6ae843c9f36825abfe1fbdadf0982cbb119af64da3f750c01620"},
+    {file = "swig-4.2.1-py2.py3-none-win32.whl", hash = "sha256:41cbe797f6ba49fc600c629928e1afd2632be23bc7d1603543360234e1773dae"},
+    {file = "swig-4.2.1-py2.py3-none-win_amd64.whl", hash = "sha256:2482156f6fba8a8a720246a95d203530834e3d8da981f904ef71c1a7e9d68efe"},
+    {file = "swig-4.2.1.tar.gz", hash = "sha256:cdbb1748132ce99defaf4ebf1736c457fb13788183264af28f17d0d477e109ba"},
+]
+
+[[package]]
 name = "sympy"
 version = "1.12.1"
 description = "Computer algebra system (CAS) in Python"
@@ -2508,4 +2533,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.0,<3.11"
-content-hash = "58cb802dd71fa78a6dcab6454bbd6c4e9b8ae15c9585e49636b3df3385ea0275"
+content-hash = "ddb3573c5559bca8b169b943737850f9c5ebb360a268cea3d587b8edc3ad2056"
